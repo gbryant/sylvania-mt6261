@@ -16,3 +16,7 @@ Here is my fork of flashrom based on the patches from xobs and with support for 
 I can successfully dump my rom using the fernly6261 branch, to dump my flash rom I used the fernly6261 branch, the fernvale-MT6261-sylvania flashrom fork and the scripts in this repo.
 ___
 I run everything from a raspberry pi so I don't have a watch dangling from my laptop.
+___
+The serial connection from the RPI to the watch would drop during the flashrom dump, so I came up with the scripts in the repo to dump a chunk at a time.
++++
+My RPI SD card was low on space so I zipped the parts as they were dumped, there is no unzip script because I just unzipped the files in the GUI on my desktop after downloading them.
