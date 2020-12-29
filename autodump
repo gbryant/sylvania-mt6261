@@ -1,0 +1,5 @@
+for i in $(seq 1 64)
+do
+fernlynoshell && PART=part$i ./chunkdump
+fernlynoshell
+done

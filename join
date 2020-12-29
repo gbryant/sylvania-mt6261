@@ -1,0 +1,4 @@
+for i in $(seq 1 64)
+do
+flashrom --programmer dummy:emulate=SST25VF032B,image=dummy.bin --layout layout -i part$i -w part$i
+done

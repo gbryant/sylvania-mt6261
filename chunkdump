@@ -1,0 +1,1 @@
+~/git/flashrom/flashrom --layout layout --image $PART --programmer fernvale_spi:dev=/dev/fernvale --read $PART && zip $PART.zip $PART && rm $PART
